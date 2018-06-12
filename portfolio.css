@@ -1,0 +1,721 @@
+    body {
+        background-color: #0B132B;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .melkbody {
+        background-color: #00A6FB;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #sidebar {
+        display: none;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    header > h1 {
+        margin-left: 50px;
+    }
+    
+    nav,
+    .listnormal {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    li,
+    a {
+        margin-right: 20px;
+        text-decoration-style: none;
+        list-style-type: none;
+        text-decoration: none;
+        font-family: Arial;
+        padding-top: 10px;
+    }
+    
+    .visited {
+        color: #00A6FB;
+    }
+    
+    .visitedmelk {
+        color: #0B132B;
+    }
+    
+    h1 {
+        color: white;
+        font-family: Arial;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    
+    h1 >a:hover {
+        color: #D7263D;
+    }
+    
+    h2 {
+        color: white;
+        font-family: Arial;
+        font-size: 50px;
+        margin-left: 50px;
+    }
+    
+    h3 {
+        color: white;
+        font-family: Arial;
+        font-size: 20px;
+        padding: 0px;
+        margin: 0 0 0 50px;
+    }
+    
+    h4 {
+        color: white;
+        font-family: Arial;
+        font-size: 16px;
+    }
+    
+    h5 {
+        color: white;
+        font-family: Arial;
+        font-size: 40px;
+        font-weight: 200;
+        padding: 0px;
+        margin: 0 0 0 50px;
+        line-height: 2;
+    }
+    
+    a {
+        color: white;
+    }
+    
+    li > a:hover {
+        color: #00A6FB;
+    }
+    /*
+img {
+    width: 700px;
+    height: 400px;
+    float: right;
+    image-resolution: 300dpi;
+}
+*/
+    
+    .homepage {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+    
+    .second {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        background-color: #00A6FB;
+        padding: 130px 0 130px 0;
+    }
+    
+    .third {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #0B132B;
+        padding: 50px 0 100px 0;
+    }
+    
+    button {
+        background-color: #0B132B;
+        border: 1px solid white;
+        border-radius: 48px;
+        width: 200px;
+        height: 40px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    
+    .secondbutton {
+        background-color: #00A6FB;
+        border: 1px solid white;
+        border-radius: 48px;
+        width: 200px;
+        height: 40px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    
+    button > a {
+        font-family: arial;
+        font-size: 15px;
+        text-align: center;
+        margin: auto;
+        display: block;
+        padding: 0;
+    }
+    
+    button:hover {
+        background-color: #D7263D;
+    }
+    
+    .secondbutton:hover {
+        background-color: #D7263D;
+    }
+    
+    .diensten {
+        margin-top: 100px;
+        margin-bottom: 150px;
+        align-content: center;
+    }
+    
+    article {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        float: center;
+        max-width: 1000px;
+        margin: auto;
+    }
+    
+    article > div {
+        padding: 0;
+        margin: 0;
+    }
+    /*
+
+.diensten > h3 {
+    color: #D7263D;
+}
+*/
+    
+    .dienstentekst {
+        color: white;
+        max-width: 230px;
+        margin: 0px;
+        font-family: arial;
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    
+    .intro {
+        margin-left: 50px;
+        margin-bottom: 50px;
+        font-family: arial;
+        font-size: 16px;
+        padding: 0;
+        color: white;
+        font-kerning: 10px;
+        line-height: 1.4;
+    }
+    
+    .myparcels {
+        margin-left: 50px;
+        margin-bottom: 50px;
+        font-family: arial;
+        font-size: 20px;
+        padding: 0;
+        color: white;
+        font-kerning: 20px;
+        line-height: 1.4;
+    }
+    
+    .iphone {
+        width: 350px;
+        height: 700px;
+        float: right;
+        image-resolution: 300dpi;
+        margin-right: 150px;
+        margin-top 0;
+    }
+    
+    .iphoneschuin {
+        width: 500px;
+        height: 400px;
+        float: right;
+        image-resolution: 300dpi;
+        margin-right: 100px;
+        margin-top 0;
+    }
+    /*
+    img {
+        width: 500px;
+        height: 400px;
+        float: right;
+        image-resolution: 300dpi;
+        margin-right: 100px;
+    }
+*/
+    
+    .transaviaimg {
+        width: 600px;
+        height: 250px;
+        float: right;
+        image-resolution: 300dpi;
+        margin-right: 100px;
+    }
+    
+    .socialmedia {
+        height: 300px;
+        padding-top: 30px;
+        background-color: #00A6FB;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-right: 100px;
+    }
+    
+    form > h3 {
+        margin-left: 15px;
+    }
+    
+    fieldset {
+        xdisplay: flex;
+        xflex-direction: row;
+        border: none;
+    }
+    
+    fieldset > label {
+        margin-top: 10px;
+        font-family: Arial;
+        font-weight: normal;
+        font-size: 16px;
+    }
+    
+    input::-webkit-input-placeholder,
+    textarea::-webkit-input-placeholder {
+        font-size: 12px;
+        padding-left:  5px;
+    }
+    
+    fieldset > input {
+        border: 1px solid grey;
+        border-radius: 5px;
+        width: 200px;
+        height: 20px;
+        margin-top: 5px;
+    }
+    
+    .berichtbutton > textarea {
+        margin-top: 5px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        width: 405px;
+        height: 100px;
+    }
+    
+    .berichtbutton {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .berichtbutton > label {
+        margin-top: 10px;
+    }
+    
+    .contactknop {
+        border: none;
+        border-radius: 50px;
+        margin-top: 20px;
+        background-color: #0B132B;
+        height: 25px;
+        width: 140px;
+        color: white;
+        font-family: Arial;
+        font-size: 15px;
+    }
+    
+    .melkwegtekst {
+        margin: auto;
+        font-family: arial;
+        font-size: 20px;
+        font-weight: 100;
+        font-stretch: extra-condensed;
+        padding: 0;
+        color: white;
+        line-height: 1.6;
+        max-width: 1000px;
+        text-align: center;
+    }
+    
+    .secondmelkweg {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #00A6FB;
+        padding: 150px 0 400px 0;
+        align-content: center;
+    }
+    
+    .persona {
+        display: block;
+        background-color: #00A6FB;
+        padding: 150px 0 0px 0;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .myskills {
+        display: block;
+        background-color: #0B132B;
+        padding: 50px 0 100px 0;
+        align-content: center;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .fotoself {
+        display: block;
+        width: 65%;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .secondmelkwegmelk {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #0B132B;
+        padding: 150px 0 400px 0;
+        align-content: center;
+    }
+    
+    .melkweg1 {
+        width: 350px;
+        height: 700px;
+        margin: 0;
+        z-index: 1000;
+        margin-top: -300px;
+    }
+    
+    .tracky2 {
+        width: 350px;
+        height: 700px;
+        margin: auto;
+    }
+    
+    .thirdmelkweg {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .fourthmelkweg {
+        padding-bottom: 100px;
+    }
+    
+    .fivemelkweg {
+        display: flex;
+        flex-direction: row-reverse;
+        align-content: center;
+    }
+    
+    .melkwegfotos {
+        margin: auto;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .melkwegfotos2 {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin: auto;
+    }
+    
+    .iphonemelk {
+        width: 350px;
+        height: 700px;
+        float: right;
+        image-resolution: 300dpi;
+        margin-right: 150px;
+        margin-top 0;
+    }
+    
+    .iphonemelkschuin {
+        width: 500px;
+        height: 400px;
+        float: right;
+        image-resolution: 300dpi;
+        margin-right: 100px;
+        margin-top: 100px;
+    }
+    
+    .intromelk {
+        margin-top: 200px;
+        margin-left: 100px;
+    }
+    
+    .melkwegtitel {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .back {
+        margin-top: 30px;
+        float: left;
+    }
+    
+    .melkwegtitel > h2 {
+        color: white;
+        font-family: Arial;
+        font-size: 50px;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    
+    .homepagemelkweg {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+    
+    .iphonetracky {
+        width: 300px;
+        height: 400px;
+        float: right;
+        image-resolution: 300dpi;
+        margin-right: 150px;
+        margin-top: 100px;
+    }
+    
+    .iphonetrans {
+        width: 900px;
+        height: 400px;
+        float: right;
+        image-resolution: 300dpi;
+        margin: auto;
+        margin-top: 50px;
+    }
+    /*
+.melkwegfotos2 {
+    align-content: center;
+}
+*/
+    
+    .socialicons {
+        margin-left: 50px;
+    }
+    
+    .socialicons > h3 {
+        margin-left: 20px;
+    }
+    
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 20px;
+        margin-top: 20px;
+        border-radius: 100px;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+    }
+    
+    .fa-soundcloud {
+        background: #ff5500;
+        color: white;
+    }
+    
+    .fa-instagram {
+        background: #125688;
+        color: white;
+    }
+    
+    #myBtn {
+        display: none;
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+        font-size: 16px;
+        font-family: arial;
+        border: none;
+        outline: none;
+        background-color: #D7263D;
+        color: white;
+        cursor: pointer;
+        border-radius: 100px;
+    }
+    
+    #myBtn:hover {
+        background-color: #555;
+    }
+    
+    .myskills > h1 {
+        margin-left: 50px;
+    }
+    
+    #skills {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    #skills3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    
+    .sketch {
+        display: block;
+    }
+    
+    .sketchpic {
+        width: 80px;
+        height: 80px;
+        display: inline-block;
+    }
+    
+    .invision {
+        width: 100px;
+        height: 80px;
+        display: inline-block;
+    }
+    
+    .javapic {
+        width: 90px;
+        height: 90px;
+        display: inline-block;
+    }
+    
+    .sketchcaption {
+        display: block;
+        font-family: arial;
+        color: white;
+        margin-top: 20px;
+    }
+    
+    @media only screen and (min-width: 375px) {
+        .phoneheader > h1 {
+            display: none;
+        }
+    }
+    
+    @media only screen and (min-width: 1000px) {
+        #sidebar {
+            display: none;
+        }
+        .barlist > .bara {
+            display: none;
+        }
+    }
+    
+    @media only screen and (max-width: 375px) {
+        .phoneheader {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+        }
+        .phoneheader > h1 {
+            font-size: 30px;
+            align-content: center;
+        }
+        header {
+            display: none;
+        }
+        #sidebar {
+            background: #D7263D;
+            width: 200px;
+            height: 100%;
+            display: block;
+            position: absolute;
+            left: -200px;
+            top: 0px;
+            transition: left 0.2s ease-out;
+            z-index: 1000;
+        }
+        #sidebar.visible {
+            left: 0px;
+            transition: left 0.2s ease-out;
+            height: 100%;
+        }
+        .buttonclose {
+            font-size: 36px;
+            top: 10px;
+            right: 0px;
+            position: absolute;
+        }
+        .sidebarlist {
+            margin: 0px;
+            padding: 0px;
+        }
+        .sidebarlist .barlist {
+            list-style: none;
+            border-bottom: 1px solid #0B132B;
+            width: 200px;
+        }
+        .sidebarlist .barlist .bara {
+            color: white;
+            display: block;
+            width: 180px;
+            padding: 10px;
+            text-decoration: none;
+            font-family: Arial, Helvetice Neue;
+            font-size: 20px;
+        }
+        .barlist > .bara {
+            margin: 20px 0px 20px 20px;
+        }
+        #sidebar-btn {
+            display: inline-block;
+            vertical-align: middle;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            margin: 20px;
+            position: absolute;
+            top: 10px;
+        }
+        #sidebar-btn span {
+            height: 3px;
+            background: #fff;
+            margin-bottom: 10px;
+            display: block;
+            border-radius: 10px;
+        }
+        #sidebar-btn span:nth-child(2) {
+            width: 75%;
+        }
+        #sidebar-btn span:nth-child(3) {
+            width: 50%;
+        }
+    }
